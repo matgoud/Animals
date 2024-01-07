@@ -1,0 +1,124 @@
+body { 
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: arial, helvetica;
+    font-size: 9pt;
+}
+
+h1 { 
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resultat {
+    margin-bottom: 2%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    margin-bottom: 3%;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.liste {
+    padding: 0;
+    margin: 0;
+}
+  
+.liste li {
+  margin-bottom: 8px;
+}
+
+.liste a {
+  color: #000000;
+  font-weight: bold; 
+}
+
+.liste a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+  
+.description {
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.feedback {
+    margin-bottom: 2%;
+    font-size: 16px;
+    color: blue;
+}
+.div-btn {
+    display: flex;
+}
+
+.div-btn form {
+    margin: 0 1%;
+}
+
+.div-form {
+    max-width: 400px;
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+  
+
+.div-form label {
+  display: block;
+  margin-bottom: 8px; 
+}
+  
+.div-form input,
+.div-form select,
+.div-form textarea {
+  width: 100%; 
+  padding: 8px; 
+  margin-bottom: 16px; 
+  box-sizing: border-box; 
+}
+  
+.div-form button {
+  background-color: #0077cc;
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+}
+  
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
